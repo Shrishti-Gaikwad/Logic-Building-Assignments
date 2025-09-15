@@ -1,14 +1,12 @@
 ////////////////////////////////////////////////
 //
 //  File name : program12.c
-//  Description : Check whether number is Even or Odd
+//  Description : Accept number from user and display there factorial
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
 ////////////////////////////////////////////////
 
-//Input : 5
-// 1+2+3+4+5
 #include <stdio.h>
 
 #define ERR_INVALID -1

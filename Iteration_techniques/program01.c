@@ -17,7 +17,6 @@ void Display()
     {
         printf("Hello\n");
     }
-
 }
 
 int main()

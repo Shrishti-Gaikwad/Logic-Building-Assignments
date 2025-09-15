@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program05.c
-//  Description : Used to print numbers from user input using Iteration
+//  Description : Used to print Hello from user input using Iteration
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 05/05/2025
 //
@@ -16,7 +16,6 @@ void Display(int iValue)
     {
         printf("%d : Hello\n",iCnt);
     }
-
 }
 
 int main()

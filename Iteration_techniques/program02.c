@@ -17,7 +17,6 @@ void Display()
     {
         printf("%d\n",iCnt);
     }
-
 }
 
 int main()

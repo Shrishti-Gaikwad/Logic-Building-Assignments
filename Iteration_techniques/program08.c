@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program08.c
-//  Description : Used to print numbers from user input using Iteration
+//  Description : Used to print summation from user input using Iteration
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 05/05/2025
 //
@@ -17,7 +17,6 @@ int Calculate(int iValue)
         iSum = iSum + iCnt;
     }
     return iSum;
-
 }
 
 int main()
@@ -27,7 +26,7 @@ int main()
     scanf("%d",&iNo);
 
     iRet = Calculate(iNo);
-    printf("Sumation is : %d\n",iRet);
+    printf("Summation is : %d\n",iRet);
 
     return 0;
 }

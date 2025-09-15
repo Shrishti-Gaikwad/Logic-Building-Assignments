@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program18.c
-//  Description : Check whether it is factorial or not
+//  Description : Accept number from user and display there even factors 
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -17,7 +17,7 @@ void DisplayEvenFactors(int iNo)
     {
         iNo = -iNo;                       //Updator
     }
-    for(iCnt = 1;iCnt <= (iNo/2); iCnt++)
+    for(iCnt = 1; iCnt <= (iNo/2); iCnt++)
     {
         if(((iNo % iCnt) == 0 ) && ((iCnt % 2) == 0))
         {

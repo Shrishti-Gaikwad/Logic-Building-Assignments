@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program19.c
-//  Description : Check whether it is factorial or not
+//  Description : Accept number from user and display there summation of factors 
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -17,7 +17,7 @@ int SumFactors(int iNo)
     {
         iNo = -iNo;                       //Updator
     }
-    for(iCnt = 1;iCnt <= (iNo/2); iCnt++)
+    for(iCnt = 1; iCnt <= (iNo/2); iCnt++)
     {
         iSum = iSum + iCnt;
     }

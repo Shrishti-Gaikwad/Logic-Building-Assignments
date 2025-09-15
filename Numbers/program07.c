@@ -1,26 +1,25 @@
 ////////////////////////////////////////////////
 //
 //  File name : program07.c
-//  Description : Check whether number is Even or Odd
+//  Description : Accept number from user and display there summation
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
 ////////////////////////////////////////////////
 
-//Input : 5
-// 1+2+3+4+5
 #include <stdio.h>
 
 int Summation(int iNo)
 {
-   int iCnt = 0, iSum = 0;
+    int iCnt = 0, iSum = 0;
 
-   for(iCnt = 1;iCnt <= iNo; iCnt++)
-   {
+    for(iCnt = 1;iCnt <= iNo; iCnt++)
+    {
        iSum = iSum + iCnt;
-   }
-   return iSum;
+    }
+    return iSum;
 }
+
 int main()
 {
     int iValue = 0;

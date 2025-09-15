@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include<stdbool.h>
 
-bool CheckEven(int iNo)
+bool CheckEvenOdd(int iNo)
 {
    return ((iNo % 2) == 0);
 }
@@ -23,7 +23,7 @@ int main()
     printf("Enter number: ");
     scanf("%d",&iValue);
 
-    bRet = CheckEven(iValue);
+    bRet = CheckEvenOdd(iValue);
 
     if(bRet == true)
     {

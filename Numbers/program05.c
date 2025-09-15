@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program05.c
-//  Description : Check whether number is Even or Odd
+//  Description : Check whether number is Divisible by 3 and 5 or not
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -12,14 +12,14 @@
 
 bool CheckDivisible(int iNo)
 {
-   if(((iNo % 5) == 0) && ((iNo % 3) == 0))
-   {
+    if(((iNo % 5) == 0) && ((iNo % 3) == 0))
+    {
         return true;
-   }
-   else
-   {
+    }
+    else
+    {
         return false;
-   }
+    }
 }
 
 int main()

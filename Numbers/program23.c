@@ -1,7 +1,7 @@
-////////////////////////////////////////////////
+//////////////////////////////////////////////
 //
 //  File name : program23.c
-//  Description : Check whether it is factorial or not
+//  Description : Check whether number is prime or not without using flag
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -10,12 +10,11 @@
 #include <stdio.h>
 #include<stdbool.h>
 
-//program using flag
+//without using flag
 bool CheckPrime(int iNo)
 {
-   int iCnt = 0;
-   bool bFlag = true;
-
+    int iCnt = 0;
+ 
     if(iNo < 0)
     {
         iNo = -iNo;
@@ -25,12 +24,20 @@ bool CheckPrime(int iNo)
     {
         if((iNo % iCnt) == 0)
         {
-            bFlag = false;
             break;
         }
     }
-    return bFlag;
+
+    if(iCnt > (iNo/2))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
+
 int main()
 {
     int iValue = 0;

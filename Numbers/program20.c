@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program20.c
-//  Description : Check whether it is factorial or not
+//  Description : Check whether number is perfect or not 
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -18,7 +18,7 @@ bool CheckPerfect(int iNo)
     {
         iNo = -iNo;                       //Updator
     }
-    for(iCnt = 1;iCnt <= (iNo/2); iCnt++)
+    for(iCnt = 1; iCnt <= (iNo/2); iCnt++)
     {
         if((iNo % iCnt) == 0)
         {

@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program22.c
-//  Description : Check whether it is factorial or not
+//  Description : Check whether number is perfect or not
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -35,6 +35,7 @@ bool CheckPerfect(int iNo)
         return false;
     }
 }
+
 int main()
 {
     int iValue = 0;

@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program17.c
-//  Description : Check whether it is factorial or not
+//  Description : Accept number from user and display there factors and non factors
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
@@ -17,7 +17,7 @@ void DisplayFactorsNonFactors(int iNo)
     {
         iNo = -iNo;                       //Updator
     }
-    for(iCnt = 1;iCnt <= iNo; iCnt++)
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
     {
         if(((iNo % iCnt) == 0 ))
         {
@@ -27,7 +27,6 @@ void DisplayFactorsNonFactors(int iNo)
         {
             printf("Non Factor is : %d\n",iCnt);
         }
-
     }
 }
 

@@ -1,18 +1,16 @@
 ////////////////////////////////////////////////
 //
 //  File name : program09.c
-//  Description : Check whether number is Even or Odd
+//  Description : Accept number from user and display there factorial
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //
 ////////////////////////////////////////////////
 
-//Input : 5
-// 1+2+3+4+5
 #include <stdio.h>
 
-
 #define ERR_INVALID -1
+
 int Factorial(int iNo)
 {
    int iCnt = 0, iFact = 1;
@@ -21,7 +19,7 @@ int Factorial(int iNo)
     {
         return ERR_INVALID;
     }
-    for(iCnt = 1; iCnt <= iNo;iCnt++)
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
     {
         iFact = iFact * iCnt;
     }

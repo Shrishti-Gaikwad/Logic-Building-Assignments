@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //
 //  File name : program04.c
-//  Description : Check whether number is Even or Odd
+//  Description : Check whether number is Divisible by 5 or not
 //  Author : Shrishti Sunil Gaikwad
 //  Date : 11/05/2025
 //

@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include<stdbool.h>
 
-bool CheckEven(int iNo)
+bool CheckEvenOdd(int iNo)
 {
     if((iNo%2) == 0)
     {
@@ -30,7 +30,7 @@ int main()
     printf("Enter number to check whether number is even or odd: ");
     scanf("%d",&iValue);
 
-    bRet = CheckEven(iValue);
+    bRet = CheckEvenOdd(iValue);
 
     if(bRet == true)
     {
